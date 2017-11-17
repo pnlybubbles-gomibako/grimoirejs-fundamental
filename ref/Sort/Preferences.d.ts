@@ -1,0 +1,23 @@
+import IState from "../Material/Schema/IState";
+declare const _default: {
+    Enable(state: IState, args: string[]): void;
+    Disable(state: IState, args: string[]): void;
+    BlendFunc(state: IState, args: string[]): void;
+    BlendFuncSeparate(state: IState, args: string[]): void;
+    BlendEquation(state: IState, args: string[]): void;
+    BlendEquationSeparate(state: IState, args: string[]): void;
+    BlendColor(state: IState, args: string[]): void;
+    ColorMask(state: IState, args: string[]): void;
+    CullFace(state: IState, args: string[]): void;
+    DepthFunc(state: IState, args: string[]): void;
+    DepthRange(state: IState, args: string[]): void;
+    DepthMask(state: IState, args: string[]): void;
+    FrontFace(state: IState, args: string[]): void;
+    LineWidth(state: IState, args: string[]): void;
+    PolygonOffset(state: IState, args: string[]): void;
+    Scissor(state: IState, args: string[]): void;
+    ExposeMacro(): void;
+    ReferMacro(): void;
+    DynamicState(state: IState, args: string[]): void;
+};
+export default _default;

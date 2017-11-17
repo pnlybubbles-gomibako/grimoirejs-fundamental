@@ -1,0 +1,20 @@
+declare const _default: {
+    vec2: number;
+    vec3: number;
+    vec4: number;
+    ivec2: number;
+    ivec3: number;
+    ivec4: number;
+    bvec2: number;
+    bvec3: number;
+    bvec4: number;
+    float: number;
+    int: number;
+    bool: number;
+    sampler2D: number;
+    samplerCube: number;
+    mat4: number;
+    mat3: number;
+    mat2: number;
+};
+export default _default;
